@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit 3.2 Period 1</title>
+    <!-- resource utilized was w3schools -->
+</head>
+<body>
+    <!-- Display section -->
+    <h1>The display Property</h1>
+
+    <!-- Example of display none -->
+<h2>display: none:</h2>
+<div>
+    This is the none display. By using this, the element is completely removed. 
+    <!-- Here Create a p tag with a class called ex1 and text that will show "Hello None! -->
+    Neat huh?
+</div>
+
+<!-- Example of display inline -->
+<h2>display: inline:</h2>
+<div>
+    Displays an element as an inline element (like in a span tag). Any height and width properties will have no effect 
+     <!-- Here Create a p tag with a class called ex2 and text that will show "Hello Hello Inline! -->
+    Neat huh? 
+</div>
+
+<!-- Example of display block-->
+<h2>display: block:</h2>
+<div>
+    Displays an element as a block element (like the p tag). It starts on a new line, and takes up the whole width
+     <!-- Here Create a p tag with a class called ex3 and text that will show "Hello Hello Block! -->
+     Neat huh?
+</div>
+
+<!-- Example of display inline-block -->
+<h2>display: inline-block:</h2>
+<div>
+    Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values 
+    <!-- Here Create a p tag with a class called ex4 and text that will show "Hello Hello Inline-Block! -->
+    Neat huh?
+</div>
+
+<!-- ---------------------------------------- -->
+<!-- Properties section -->
+<h1>Position Property</h1>
+
+<!-- Static example -->
+<h2>position: static;</h2>
+
+<p>An element with position: static; is not positioned in any special way; it is
+always positioned according to the normal flow of the page:</p>
+
+<!-- Create a div with a class called static use the text below inside the div.-->
+  <!-- This div element has position: static; -->
+
+
+<!-- Relative example -->
+<h2>position: relative;</h2>
+
+<p>An element with position: relative; is positioned relative to its normal position:</p>
+
+<!-- Create a div with a class called relative use the text below inside the div.-->
+<!-- This div element has position: relative; -->
+
+
+<!-- Absolute example -->
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<!-- Create a div with a class called relative2 use the text "This div element has position: relative"below inside the div.-->
+
+<!-- Nest another div inside relative2 div. Call the div inside relative2 "absolute" for its class with the following text: This div element has position: absolute; -->
+
+<!-- Fixed example -->
+<h2>position: fixed;</h2>
+
+<p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+<!-- Create a div with a class called "fixed". Place the following text inside the div: This div element has position: fixed; -->
+
+
+<!-- Sticky example -->
+<p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+ 
+<!-- Create a div with a class called "sticky". Let the text be inside the div be the follow: "I am sticky!" -->
+
+
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. I want to read comics all the time! Do you have a favorite comic? I tend to read mine online anymore. How about you?</p>
+  <p>Some text to enable scrolling.I love Boba! Boba is best! Would you like to get Boba tea with me?I love Boba! Boba is best! Would you like to get Boba tea with me?</p>
+</div>
+
+
+<!-- ---------------------------------- -->
+<!-- Float section -->
+<h1>Floats</h1>
+<!-- Left example with and without clear -->
+    <h2>Without clear</h2>
+
+    <!-- Give the following div example below a class called "div1" -->
+    <div>div1</div>
+
+    <!-- Give the following div example below a class called "div2" -->
+    <div>div2 - <em><strong>HEY LISTEN!</strong></em> div2 is after div1 in the HTML code. Since div1 floats to the <b>LEFT</b>, the text in div2 flows <b>AROUND</b> div1.</div>
+    <br><br>
+    <h2>With clear</h2>
+    <!-- Give the following div example below a class called "div3" -->
+    <div>div3</div>
+    <!-- Give the following div example below a class called "div4" -->
+    <div>
+    div4 - <em><strong>Beep-Boop-Beep-Boop! </strong></em>clear: left; moves div4 <b>DOWN</b> below the floating div3. The value "left" <b>CLEARS</b> elements floated to the <b>LEFT</b>. You can also clear "right" and "both".
+    </div>
+
+    
+
+
+
+
+</body>
+</html>
